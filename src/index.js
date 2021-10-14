@@ -14,3 +14,10 @@ console.log(getOmdbApi)
 
 //Se trigerea el boton de busqueda
 
+let searchFilm = () => {
+    let searchValue = document.getElementById("searchInput").value //se trae el valor de input
+    getOmdbApi(searchValue)
+}
+
+let buttonSearch = document.getElementById("searchButton")
+buttonSearch.addEventListener('click', searchFilm)
