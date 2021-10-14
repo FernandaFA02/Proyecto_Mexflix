@@ -1,0 +1,19 @@
+{
+  "name": "proyecto-4.mexflix",
+  "version": "1.0.0",
+  "description": "Movie catalogue to find superheroes movies of modern times\u001b[D\u001b[D\u001b[D\u001b[Drecent\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "\u0016\u0016\u0016https://github.com/FernandaFA02/Proyecto_Mexflix.git"
+  },
+  "keywords": [
+    "Mexflix",
+    "Movies"
+  ],
+  "author": "Fernanda Fajardo",
+  "license": "MIT"
+}
