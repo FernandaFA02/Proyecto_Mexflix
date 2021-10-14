@@ -11,6 +11,8 @@
 //Se importa el API desde data.js
 import {getOmdbApi} from "./data.js";
 console.log(getOmdbApi)
+//Se importa el API para segunda busqueda por año
+import  {getOmdbApiYear} from "./data.js"
 
 //Se trigerea el boton de busqueda
 
