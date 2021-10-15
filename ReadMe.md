@@ -43,6 +43,8 @@ _No está limitado a implementar solo la parte obligatoria. También puede agreg
 
 ![Planeación4](./assets/4.Planning.png)
 
+![Planeación5](./assets/5.Planning.png)
+
 ---
 
 ## **Diagrama de Flujo**

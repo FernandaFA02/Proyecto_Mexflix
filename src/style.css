@@ -1,0 +1,33 @@
+/*Se hará el css con ayuda de bootstrap*/
+/*Se agrega la liga de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+/*Se crean los bloques de cada página con ayuda de Grid para lograr hacerlo responsivo*/
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-areas:
+    "section section section";
+    background-color: #000000;
+    padding: 20%;
+    width: auto;
+}
+
+section{
+    grid-area: section;
+}
+
+.head {
+    color: #FB6107;
+    text-align: center;
+    font-size: 55px;
+    font-family: 'Permanent Marker', cursive;
+}
+
+#usuario,
+#password {
+    margin: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    color: #C99DA3;
+}
