@@ -16,7 +16,7 @@ inicio.addEventListener("click", function () {
     document.getElementById("pantalla1").hidden = true //se oculta pantalla 1
     document.getElementById("pantalla2").hidden = false //se muestra pantalla 2
     }else{
-        alert("Usuario y/o Contraseña no vaalidos")
+        alert("Usuario y/o Contraseña no validos")
     }
 })
 //Dentro de la pantalla 2 se crea una funcion para generar el buscador de peliculas
