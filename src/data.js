@@ -15,7 +15,7 @@ un fetch con la direccion del API a la cual se le agregará un template string, 
 *///esta busqueda es por nombre de la pelicula
 
 export let getOmdbApi = (filmForSearch) => {
-fetch("http://www.omdbapi.com/?t='' + ''" + `${filmForSearch}` + "&apikey=954d0791")
+fetch("https://www.omdbapi.com/?t='' + ''" + `${filmForSearch}` + "&apikey=954d0791")
 .then((response) => {
     console.log(response)
     if(response.status == 404){
@@ -43,7 +43,7 @@ let renderingFilmYear = (filmData) => {
 
 //se crea otra funcion export para hacer la busqueda por año  
 export let getOmdbApiYear = (SearchForYear) => {
-fetch("http://www.omdbapi.com/?y=" + `${SearchForYear}` + "&apikey=954d0791")
+fetch("https://www.omdbapi.com/?y=" + `${SearchForYear}` + "&apikey=954d0791")
 .then((response) => {
     console.log(response)
     if(response.status == 404){
