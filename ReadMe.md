@@ -55,7 +55,7 @@ _No está limitado a implementar solo la parte obligatoria. También puede agreg
 
 ## **Maquetación**
 
-![Pantalla1](./assets/pantalla1.png)
+![Pantalla1](./assets/1pantalla.png)
 
 ![Pantalla2](./assets/pantalla2.png)
 
