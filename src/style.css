@@ -39,6 +39,12 @@ main {
     text-align: center;
     font-family: 'Permanent Marker', cursive;
 }
+/*diseño de información*/
+p{
+    color: #F4D35E;
+    text-align: justify;
+    font-family: 'Permanent Marker', cursive;;
+}
 /*haciendo responsiva la imagen*/
 .responsive-img {
     max-width: 100%;
@@ -46,7 +52,7 @@ main {
     border-radius: 15px;
 }
 /*footer*/
-footer{
+#footer{
     text-align: center;
     color: #FB6107;
     font-family: 'Permanent Marker', cursive;

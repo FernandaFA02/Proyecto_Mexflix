@@ -4,9 +4,15 @@ let renderingFilm = (filmData) => {
     let movieTitle = document.getElementById("film-title")
     let moviePoster = document.getElementById("film-poster")
     let movieActors = document.getElementById("movie-actors")
+    let movieYear1 = document.getElementById("film-year")
+    let moviePlot = document.getElementById("plot")
+    let movieDirector = document.getElementById("director")
     movieTitle.innerHTML = filmData.Title
     moviePoster.setAttribute("src", filmData.Poster)
     movieActors.innerHTML = filmData.Actors
+    movieYear1.innerHTML = filmData.Year
+    moviePlot.innerHTML = filmData.Plot
+    movieDirector.innerHTML = filmData.Director
 }
 
 /*aqui se exporta desde el index.js el API con una variable que sera igual  a una funcion flecha que contendra
