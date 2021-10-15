@@ -10,22 +10,14 @@ main {
     padding: 20%;
     width: auto;
 }
-
-section1{
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    column-gap: 20px;
-    row-gap: 20px;
-}
-
+/*diseño del titulo*/
 .head {
     color: #FB6107;
     text-align: center;
     font-size: 55px;
     font-family: 'Permanent Marker', cursive;
 }
-
+/*diseño para inputs pantalla1*/
 #usuario,
 #password {
     margin: 15px;
@@ -33,7 +25,7 @@ section1{
     border-radius: 12px;
     color: #C99DA3;
 }
-
+/*diseño para inputs pantalla 2*/
 #searchInput,
 #searchButton {
     margin: 15px;
@@ -41,20 +33,21 @@ section1{
     border-radius: 12px;
     color: #FB6107;
 }
-
+/*diseño para titulo de pelicula*/
 .movie-title{
     color: #F4D35E;
     text-align: center;
+    font-family: 'Permanent Marker', cursive;
 }
-
+/*haciendo responsiva la imagen*/
 .responsive-img {
     max-width: 100%;
     min-width: 100%;
-    border-radius: 12px;
+    border-radius: 15px;
 }
-
+/*footer*/
 footer{
     text-align: center;
     color: #FB6107;
-    font-family: 'Permanent Marker', cursive;;
+    font-family: 'Permanent Marker', cursive;
 }
