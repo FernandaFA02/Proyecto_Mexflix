@@ -3,8 +3,10 @@ let renderingFilm = (filmData) => {
     console.log(filmData)
     let movieTitle = document.getElementById("film-title")
     let moviePoster = document.getElementById("film-poster")
+    let movieActors = document.getElementById("movie-actors")
     movieTitle.innerHTML = filmData.Title
     moviePoster.setAttribute("src", filmData.Poster)
+    movieActors.innerHTML = filmData.Actors
 }
 
 /*aqui se exporta desde el index.js el API con una variable que sera igual  a una funcion flecha que contendra
