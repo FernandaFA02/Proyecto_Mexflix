@@ -15,5 +15,8 @@
     "Movies"
   ],
   "author": "Fernanda Fajardo",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.0.1"
+  }
 }
