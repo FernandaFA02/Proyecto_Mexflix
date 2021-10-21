@@ -42,21 +42,15 @@ _El usuario quiere poder buscar para encontrar más películas por título, año
 
 ## **Diagrama de Flujo**
 
-![Diagrama](./assets/Diagrama.png)
+![Diagrama](./assets/Mexflix.png)
 
 ---
 
 ## **Maquetación**
 
-![Pantalla1](./assets/1pantalla.png)
+![Pantalla1](./assets/pantalla1.png)
 
 ![Pantalla2](./assets/pantalla2.png)
-
-![Pantalla3](./assets/pantalla3.png)
-
-![Pantalla4](./assets/pantalla4.png)
-
-![Pantalla5](./assets/pantalla5.png)
 
 ---
 
