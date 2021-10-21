@@ -49,7 +49,8 @@ let renderingSelectionMovie = (data) => {
     //console.log(data)
     let preSelection = document.getElementById("peli-selection")
     preSelection.innerHTML += ' <div class="card" style="width: 18rem;"> ' + 
-    "<img " + "src= " +`${data.Poster}` + " class='card-img-top' alt=''>" +
+    '<a href="https://www.youtube.com/playlist?list=PLeUE1Tl0ah2Ic0LmR2GaCwh8br1nTAUXP" target="_blank">' +
+    "<img " + "src= " +`${data.Poster}` + " class='card-img-top' alt=''>" + "</a>"+
     "  <div class='card-body'> " +
     "  <h5 class='card-title'> <strong>Titulo: </strong>" + `${data.Title}`  + "</h5> " +
     "  <p> <strong>Año: </strong>" + `${data.Year}` + "</p>" + 
@@ -80,8 +81,8 @@ for (const item of marvelSelection) {
 let renderingMarvelSelection = (marvelData) => {
    // console.log(marvelData)
     let mSelection = document.getElementById("MarvelSudios")
-    mSelection.innerHTML += ' <div class="card" style="width: 18rem;"> ' + 
-    "<img " + "src= " +`${marvelData.Poster}` + " class='card-img-top' alt=''>" +
+    mSelection.innerHTML += ' <div class="card" style="width: 18rem;"> ' + '<a href="https://www.youtube.com/playlist?list=PLeUE1Tl0ah2LIVxfUOdhGrSrb0HKgFkh7" target="_blank">' +
+    "<img " + "src= " +`${marvelData.Poster}` + " class='card-img-top' alt=''></a>" +
     "  <div class='card-body'> " +
     "  <h5 class='card-title'> <strong>Titulo: </strong>" + `${marvelData.Title}`  + "</h5> " +
     "  <p> <strong>Año: </strong>" + `${marvelData.Year}` + "</p>" + 
@@ -95,7 +96,7 @@ let renderingMarvelSelection = (marvelData) => {
 }
 
 //Se crea la coleccion de DC Comics
-let dcSelection = ["tt0372784", "tt7286456", "tt2617456", "tt0451279", "tt0409459", "tt1386697", "tt0974015", "tt0327554", "tt0468569"]
+let dcSelection = ["tt0372784", "tt0770828", "tt7286456", "tt0451279", "tt0409459", "tt1386697", "tt0974015", "tt0327554", "tt0468569"]
 
 //_____----->>>Traer seleccion desde API
 
@@ -112,8 +113,8 @@ for (const item of dcSelection) {
 let renderingDcSelection = (dcData) => {
     //console.log(dcData)
     let dSelection = document.getElementById("DC-Comics")
-    dSelection.innerHTML += ' <div class="card" style="width: 18rem;"> ' + 
-    "<img " + "src= " +`${dcData.Poster}` + " class='card-img-top' alt=''>" +
+    dSelection.innerHTML += ' <div class="card" style="width: 18rem;"> ' + '<a href="https://www.youtube.com/playlist?list=PLeUE1Tl0ah2JzAsqFIX0TAvYuBk4IrDmr" target="_blank">' +
+    "<img " + "src= " +`${dcData.Poster}` + " class='card-img-top' alt=''></a>" +
     "  <div class='card-body'> " +
     "  <h5 class='card-title'> <strong>Titulo: </strong>" + `${dcData.Title}`  + "</h5> " +
     "  <p> <strong>Año: </strong>" + `${dcData.Year}` + "</p>" + 
@@ -144,8 +145,8 @@ for (const item of lucasSelection) {
 let renderingLucasSelection = (lData) => {
     //console.log(lData)
     let lSelection = document.getElementById("StarWars")
-    lSelection.innerHTML +=  ' <div class="card" style="width: 18rem;"> ' + 
-        "<img " + "src= " +`${lData.Poster}` + " class='card-img-top' alt=''>" +
+    lSelection.innerHTML +=  ' <div class="card" style="width: 18rem;"> ' + '<a href="https://www.youtube.com/playlist?list=PLeUE1Tl0ah2IM7rO9OxzI_GWjJ4riNZMM" target="_blank">' +
+        "<img " + "src= " +`${lData.Poster}` + " class='card-img-top' alt=''></a>" +
         "  <div class='card-body'> " +
         "  <h5 class='card-title'> <strong>Titulo: </strong>" + `${lData.Title}`  + "</h5> " +
         "  <p> <strong>Año: </strong>" + `${lData.Year}` + "</p>" + 
