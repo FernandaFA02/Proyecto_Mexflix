@@ -33,4 +33,5 @@ let searchFilm = () => {
 let buttonSearch = document.getElementById("search-button")
 buttonSearch.addEventListener('click', searchFilm)
 
-
+//Se agrega una alerta de bienvenida e informaciòn
+alert("Hola Bienvenid@, si gustas ver los trailers de las peliculas, por favor dale click a cualquier poster")

@@ -145,7 +145,7 @@ for (const item of lucasSelection) {
 let renderingLucasSelection = (lData) => {
     //console.log(lData)
     let lSelection = document.getElementById("StarWars")
-    lSelection.innerHTML +=  ' <div class="card" style="width: 18rem;"> ' + '<a href="https://www.youtube.com/playlist?list=PLeUE1Tl0ah2IM7rO9OxzI_GWjJ4riNZMM" target="_blank">' +
+    lSelection.innerHTML +=  ' <div class="card" style="width: 18rem;"> ' + '<a href="https://www.youtube.com/playlist?list=PLeUE1Tl0ah2IM7rO9OxzI_GWjJ4riNZMM" target="_blank">'+
         "<img " + "src= " +`${lData.Poster}` + " class='card-img-top' alt=''></a>" +
         "  <div class='card-body'> " +
         "  <h5 class='card-title'> <strong>Titulo: </strong>" + `${lData.Title}`  + "</h5> " +

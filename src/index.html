@@ -39,13 +39,15 @@
         <!-----------------Se añade un navbar para la barra de navegacion y busqueda--------------------->
                 <nav class="navbar navbar-dark bg-dark flex-item">
                     <div class="container-fluid">
-                        <a class="navbar-brand" href="#">
-                            <img src="/assets/logo.png" alt="logo" width="30" height="24">
-                        </a>
+                        <a class="navbar-brand" href="#"></a>
                         <a class="navbar-brand">Super Hero Movies</a>
                             <section class="d-flex">
                                 <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                                 <button id="search-button" class="btn btn-outline-success" type="button">Buscar</button>
+                                <a href="#reco" class="btn btn-outline-success" type="button">Recomendaciones</a>
+                                <a href="#marvel" class="btn btn-outline-success" type="button">Marvel</a>
+                                <a href="#dc" class="btn btn-outline-success" type="button">DC</a>
+                                <a href="#lucas" class="btn btn-outline-success" type="button">LucasFilm</a>
                             </section>
                     </div>
                 </nav>
@@ -58,23 +60,23 @@
                 </div>
         <!------------Aquí va la pelicula encontrada y las peliculas pre-seleccionadas-------------------->
                 <div >
-                    <h1><strong> Películas Recomendadas </strong></h1>
+                    <h1 id="reco"><strong> Películas Recomendadas </strong></h1>
                     <section id="peli-selection" class="container-pre"></section>
                 </div>
 
         <!--------------------------Aquí van los catalogos de cada productora----------------------------->
                 <div>
-                    <h1><strong> Marvel Studios </strong></h1>
+                    <h1 id="marvel"><strong> Marvel Studios </strong></h1>
                     <section id="MarvelSudios" class="container-pre"></section>
                 </div>
 
                 <div>
-                    <h1><strong> DC Comics </strong></h1>
+                    <h1 id="dc"><strong> DC Comics </strong></h1>
                     <section id="DC-Comics" class="container-pre"></section>
                 </div>
 
                 <div>
-                    <h1><strong> LucasFilm </strong></h1>
+                    <h1 id="lucas"><strong> LucasFilm </strong></h1>
                     <section id="StarWars" class="container-pre"></section>
                 </div>
 
