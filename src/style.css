@@ -7,7 +7,7 @@
     background-size: cover;
     background-repeat: no-repeat;
     width: auto;
-    padding: 20%;
+    padding: 25%;
     height: 100%;
     font-family: 'Rock Salt', cursive;
 }
@@ -17,9 +17,15 @@ h2{
     font-family: 'Rock Salt', cursive;
     color: #f12711;  /* fallback for old browsers */
     text-align: center;
-    
 }
 
+/*Se estilizan el boton y el input*/
+#usuario #paswword{
+    margin: 15px;
+    padding: 12px;
+    border-radius: 12px;
+    color: #C99DA3;
+}
 /*Se agrega el fondo a la pantalla 2*/
 #pantalla2{
     background: #f12711;  /* fallback for old browsers */
@@ -38,6 +44,7 @@ h2{
     flex-flow: wrap;
     row-gap: 2em;
     column-gap: 2em;
+    margin: 12%;
 }
 /*Estilo para los titulos*/
 h1{
