@@ -31,7 +31,7 @@ export let getOmdbApi = (filmForSearch) => {
     }
 
 //Se crea una pre-seleccion de peliculas
-let peliSeletion = ["tt0371746", "tt0848228", "tt2015381", "tt0372784", "tt1477834", "tt0076759", "tt7286456"]
+let peliSeletion = ["tt4154756", "tt1843866", "tt3501632", "tt4154796", "tt1345836", "tt0103776"]
 
 //_____----->>>Traer pre-seleccion desde API
 
@@ -127,7 +127,7 @@ let renderingDcSelection = (dcData) => {
 }
 
 //Se crea la coleccion de LucasFilm
-let lucasSelection = ["tt0080684", "tt0086190", "tt0120915", "tt0121765", "tt0121766", "tt2488496", "tt2527336", "tt2527336"]
+let lucasSelection = ["tt0080684", "tt0086190", "tt0120915", "tt0121765", "tt0121766", "tt2488496", "tt2527336"]
 
 //_____----->>>Traer seleccion desde API
 

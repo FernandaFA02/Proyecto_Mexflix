@@ -8,6 +8,8 @@ let searchFilm = () => {
     getOmdbApi(searchValue)
     let peliCard = document.getElementById("pelix")
     peliCard.hidden = false;
+    let tituloCard = document.getElementById("tituloSearch")
+    tituloCard.hidden = false;
 } 
 
 //Se trigerea el boton de busqueda

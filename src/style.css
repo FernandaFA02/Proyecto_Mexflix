@@ -1,0 +1,33 @@
+/*Se agrega la liga de google fonts*/
+@import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
+/*Se agrega el fondo al body*/
+body{
+    background-color: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+/*Se estiliza la letra del nav*/
+.navbar-brand{
+    font-family: 'Rock Salt', cursive;
+}
+/*Se agregan estilos al catalogo de peliculas*/
+.container-pre{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    row-gap: 4em;
+    column-gap: 4em;
+}
+/*Estilo para los titulos*/
+h1{
+    text-align: center;
+    font-family: 'Rock Salt', cursive;
+    border: inset;
+    border-radius: 15px;
+}
+
+#pelix {
+    background-color: #00c3ff;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
