@@ -24,7 +24,7 @@
 
         </section>
         <!--Se crea un main para mantener unido el contenido principal-->
-        <main id=" container">
+        <main>
         <!--Se crea un div para contener la pantalla 2 que contendrá el catálogo de peliculas-->
         <div id="pantalla2">
         <!--Se añade un navbar para la barra de navegacion y busqueda-->
@@ -41,21 +41,42 @@
             </div>
         </nav>
         </div>
+        <!--Se crea un contenedor para estilizar pantalla de catalogo-->
+    <div>
         <!--Se añade la card de busqueda-->
-        <div hidden id="pelix" class="card flex-item" style="width: 18rem;"> </div>
+        <div >
+            <h1 hidden id="tituloSearch"><strong>Tu busqueda</strong></h1>
+            <section hidden id="pelix" class="card flex-item container-pre style="width: 18rem;"></section>
+        </div>
         <!--Aquí va la pelicula encontrada y las peliculas pre-seleccionadas-->
-        <div id="peli-selection" class="flex-item"><strong> Películas Recomendadas </strong></div>
+        <div >
+            <h1><strong> Películas Recomendadas </strong></h1>
+            <section id="peli-selection" class="container-pre"></section>
+        </div>
 
         <!--Aquí van los catalogos de cada productora-->
-        <div id="MarvelSudios" class="flex-item"><strong> Marvel Studios </strong></div>
-        <div id="DC-Comics" class="flex-item"><strong> DC Comics </strong></div>
-        <div id="StarWars" class="flex-item"><strong> LucasFilm </strong></div>
+        <div>
+            <h1><strong> Marvel Studios </strong></h1>
+            <section id="MarvelSudios" class="container-pre"></section>
+        </div>
+
+        <div>
+            <h1><strong> DC Comics </strong></h1>
+            <section id="DC-Comics" class="container-pre"></section>
+        </div>
+
+        <div>
+            <h1><strong> LucasFilm </strong></h1>
+            <section id="StarWars" class="container-pre"></section>
+        </div>
+
         <!--Se agrega el footer-->
         <footer>
             <p>Created by: Fernanda Fajardo, CDMX-2021</p>
             <a href="https://github.com/FernandaFA02" target="_blank"><i class="fab fa-github">Github</i></a>
             <a href="https://www.linkedin.com/in/fernanda-fajardo-6a83b4216/"><i class="fab fa-linkedin">Linkedin</i></a>
         </footer>
+    </div>
         </main>
         
         <!--Se vincula el index.js en tipo modulo-->
