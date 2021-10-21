@@ -1,15 +1,9 @@
 /*Se agrega la liga de google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-
-/*Se agrega el estilo para la pantalla uno*/
-#pantalla1{
+/*Se estiliza el body*/
+body{
     background-image: url(https://www.wallpapertip.com/wmimgs/13-131145_comic-book-collage-wallpaper-comic-book-collage-by.png);
     background-size: cover;
-    background-repeat: no-repeat;
-    width: auto;
-    padding: 25%;
-    height: 100%;
-    font-family: 'Rock Salt', cursive;
 }
 
 /*Estiliamos el h2*/
@@ -17,14 +11,22 @@ h2{
     font-family: 'Rock Salt', cursive;
     color: #f12711;  /* fallback for old browsers */
     text-align: center;
+    margin: 6%;
 }
 
 /*Se estilizan el boton y el input*/
-#usuario #paswword{
-    margin: 15px;
-    padding: 12px;
-    border-radius: 12px;
+.entrada{
+    margin: 10%;
+    border-radius: 20px;
     color: #C99DA3;
+    text-align: center;
+}
+/*se estiliza el boton*/
+.btn btn-warning{
+    margin: 10%;
+    padding: 12px;
+    border-radius: 10px;
+    align-items: baseline;
 }
 /*Se agrega el fondo a la pantalla 2*/
 #pantalla2{
