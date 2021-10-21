@@ -10,6 +10,7 @@ entrada.addEventListener("click", function () {
     if(user == "Fer" && password == 1234){ //Se establecen usuario y contraseña, si se cumplen se ejecuta:
     document.getElementById("pantalla1").hidden = true //se oculta pantalla 1
     document.getElementById("pantalla2").hidden = false //se muestra pantalla 2
+    alert("Hola Bienvenid@, si gustas ver los trailers de las peliculas, por favor dale click a cualquier poster")
     }else{
         alert("Usuario y/o Contraseña no validos")
     }
@@ -34,4 +35,4 @@ let buttonSearch = document.getElementById("search-button")
 buttonSearch.addEventListener('click', searchFilm)
 
 //Se agrega una alerta de bienvenida e informaciòn
-alert("Hola Bienvenid@, si gustas ver los trailers de las peliculas, por favor dale click a cualquier poster")
+
