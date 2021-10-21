@@ -19,65 +19,75 @@
     </head>
     <body>
 
-        <!--Se crea un section para la primera pantalla, para ingresar datos del usuario-->
-        <section id="pantalla1">
+        
 
-        </section>
-        <!--Se crea un main para mantener unido el contenido principal-->
-        <main>
-        <!--Se crea un div para contener la pantalla 2 que contendrá el catálogo de peliculas-->
-        <div id="pantalla2">
-        <!--Se añade un navbar para la barra de navegacion y busqueda-->
-        <nav class="navbar navbar-dark bg-dark flex-item">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#">
-                    <img src="/assets/logo.png" alt="logo" width="30" height="24">
-                </a>
-                <a class="navbar-brand">S. H. Movies</a>
-                <section class="d-flex">
-                    <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                    <button id="search-button" class="btn btn-outline-success" type="button">Buscar</button>
-                </section>
-            </div>
-        </nav>
-        </div>
-        <!--Se crea un contenedor para estilizar pantalla de catalogo-->
-    <div>
-        <!--Se añade la card de busqueda-->
-        <div >
-            <h1 hidden id="tituloSearch"><strong>Tu busqueda</strong></h1>
-            <section hidden id="pelix" class="card flex-item container-pre style="width: 18rem;"></section>
-        </div>
-        <!--Aquí va la pelicula encontrada y las peliculas pre-seleccionadas-->
-        <div >
-            <h1><strong> Películas Recomendadas </strong></h1>
-            <section id="peli-selection" class="container-pre"></section>
-        </div>
+        <!--------Se crea un section para la primera pantalla, para ingresar datos del usuario--------->
+    <section id="pantalla1">
+            <h2 class="head">S. H. Movies</h2>
+            <input class="entrada" type="text" placeholder="Usuario" id="usuario">
+            <input class="entrada" type="password" placeholder="Contraseña" id="password">
+            <button type="button" class="btn btn-warning" id="inicio">Entrar</button>
+    </section>
 
-        <!--Aquí van los catalogos de cada productora-->
+        <!---------------Se crea un main para mantener unido el contenido principal------------------->
+    <main id="pantalla2" hidden>
+
+        <!----------------Se crea un contenedor para estilizar pantalla de catalogo---------------------->
         <div>
-            <h1><strong> Marvel Studios </strong></h1>
-            <section id="MarvelSudios" class="container-pre"></section>
+        <!-------Se crea un div para contener la pantalla 2 que contendrá el catálogo de peliculas------->
+            <div >
+        <!-----------------Se añade un navbar para la barra de navegacion y busqueda--------------------->
+                <nav class="navbar navbar-dark bg-dark flex-item">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="/assets/logo.png" alt="logo" width="30" height="24">
+                        </a>
+                        <a class="navbar-brand">S. H. Movies</a>
+                            <section class="d-flex">
+                                <input id="search-input" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button id="search-button" class="btn btn-outline-success" type="button">Buscar</button>
+                            </section>
+                    </div>
+                </nav>
         </div>
+        
+        <!-------------------Se añade la card de busqueda------------------------------------------------>
+                <div >
+                    <h1 hidden id="tituloSearch"><strong>Tu busqueda</strong></h1>
+                    <section hidden id="pelix" class="card flex-item container-pre style="width: 18rem;"></section>
+                </div>
+        <!------------Aquí va la pelicula encontrada y las peliculas pre-seleccionadas-------------------->
+                <div >
+                    <h1><strong> Películas Recomendadas </strong></h1>
+                    <section id="peli-selection" class="container-pre"></section>
+                </div>
 
-        <div>
-            <h1><strong> DC Comics </strong></h1>
-            <section id="DC-Comics" class="container-pre"></section>
-        </div>
+        <!--------------------------Aquí van los catalogos de cada productora----------------------------->
+                <div>
+                    <h1><strong> Marvel Studios </strong></h1>
+                    <section id="MarvelSudios" class="container-pre"></section>
+                </div>
 
-        <div>
-            <h1><strong> LucasFilm </strong></h1>
-            <section id="StarWars" class="container-pre"></section>
-        </div>
+                <div>
+                    <h1><strong> DC Comics </strong></h1>
+                    <section id="DC-Comics" class="container-pre"></section>
+                </div>
 
-        <!--Se agrega el footer-->
+                <div>
+                    <h1><strong> LucasFilm </strong></h1>
+                    <section id="StarWars" class="container-pre"></section>
+                </div>
+
+        <!-----------------------------Se agrega el footer-------------------------------------------------->
         <footer>
             <p>Created by: Fernanda Fajardo, CDMX-2021</p>
-            <a href="https://github.com/FernandaFA02" target="_blank"><i class="fab fa-github">Github</i></a>
-            <a href="https://www.linkedin.com/in/fernanda-fajardo-6a83b4216/"><i class="fab fa-linkedin">Linkedin</i></a>
+            <section id="social">
+                <a href="https://github.com/FernandaFA02" target="_blank"><i class="fab fa-github">Github</i></a>
+                <a href="https://www.linkedin.com/in/fernanda-fajardo-6a83b4216/"><i class="fab fa-linkedin">Linkedin</i></a>
+            </section>
         </footer>
-    </div>
-        </main>
+        </div>
+    </main>
         
         <!--Se vincula el index.js en tipo modulo-->
         <script src="index.js" type="module"></script>
