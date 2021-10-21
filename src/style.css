@@ -1,11 +1,32 @@
 /*Se agrega la liga de google fonts*/
 @import url('https://fonts.googleapis.com/css2?family=Rock+Salt&display=swap');
-/*Se agrega el fondo al body*/
-body{
-    background-color: #00c3ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+/*Se agrega el estilo para la pantalla uno*/
+#pantalla1{
+    background-image: url(https://www.wallpapertip.com/wmimgs/13-131145_comic-book-collage-wallpaper-comic-book-collage-by.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: auto;
+    padding: 20%;
+    height: 100%;
+    font-family: 'Rock Salt', cursive;
 }
+
+/*Estiliamos el h2*/
+h2{
+    font-family: 'Rock Salt', cursive;
+    color: #f12711;  /* fallback for old browsers */
+    text-align: center;
+    
+}
+
+/*Se agrega el fondo a la pantalla 2*/
+#pantalla2{
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
 /*Se estiliza la letra del nav*/
 .navbar-brand{
     font-family: 'Rock Salt', cursive;
@@ -15,8 +36,8 @@ body{
     display: flex;
     flex-direction: row;
     flex-flow: wrap;
-    row-gap: 4em;
-    column-gap: 4em;
+    row-gap: 2em;
+    column-gap: 2em;
 }
 /*Estilo para los titulos*/
 h1{
@@ -24,10 +45,27 @@ h1{
     font-family: 'Rock Salt', cursive;
     border: inset;
     border-radius: 15px;
+    color: blanchedalmond;
+    margin: 2%;
+
 }
 
 #pelix {
-    background-color: #00c3ff;  /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #ffff1c, #00c3ff);  /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #ffff1c, #00c3ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #f12711;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f5af19, #f12711);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f5af19, #f12711); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+
+footer{
+    color: #C60404;
+    font-family: 'Rock Salt', cursive;
+    text-align: center;
+    background-color: black;
+    border-radius: 15px;
+}
+
+#social a i{
+    color: #FF8B00;
 }

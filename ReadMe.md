@@ -2,12 +2,11 @@
 
 1. Descripción
 2. Definición del Usuario
-3. Edición Hacker
-4. Planeación del proyecto
-5. Diagrama de flujo
-6. Maquetación
-7. Pseudocódigo
-8. Producto final
+3. Planeación del proyecto
+4. Diagrama de flujo
+5. Maquetación
+6. Pseudocódigo
+7. Producto final
 
 ---
 
@@ -24,12 +23,6 @@ _Los usuarios quieren leer una selección adecuada de películas de super héroe
 _El usuario quiere ver un buen catálogo de películas ya preseleccionadas._
 
 _El usuario quiere poder buscar para encontrar más películas por título, año y actores._
-
----
-
-## **Edición Hacker**
-
-_No está limitado a implementar solo la parte obligatoria. También puede agregar otras funcionalidades agradables en esta aplicación web, como un inicio de sesión de autenticación, una creación de lista de favoritos usando una matriz y almacenamiento por ahora, en el objeto localStoragebrowser._
 
 ---
 
@@ -68,6 +61,44 @@ _No está limitado a implementar solo la parte obligatoria. También puede agreg
 ---
 
 ## **Pseudocódigo**
+
+### HTML
+
+* Se agrega liga de bootstrap
+* Se agrega liga de font awesome
+* Se crea un main para mantener unido el contenido principal
+* Se crea un section para la primera pantalla, para ingresar datos del usuario
+* Se crea un div para contener la pantalla 2 que contendrá el catálogo de peliculas
+* Se añade un navbar para la barra de navegacion y busqueda
+* Se crea un contenedor para estilizar pantalla de catálogo
+* Se añade la card de busqueda
+* Aquí va la pelicula encontrada y las peliculas pre-seleccionadas
+* Aquí van los catalogos de cada productora
+* Se agrega el footer
+* Se vincula el index.js en tipo modulo
+
+### Index.js
+
+* Se atrae el id de la segunda pantalla con getElementById para ayudar a ocultar la primera pantalla cuando el ususario ingrese
+* Dentro de la segunda pantalla//Se crea una funcion para generar el buscador de peliculas//Aquí va el DOM //Se importa la API desde data.js
+* Se trae el valor de input
+* Se trigerea el boton de busqueda
+
+### Data.js
+
+* Se crea una funcion para renderear la busqueda de películas
+* Se exporta desde index.js//Se crea una funcion que contendra los datos de la API
+* Se crea una pre-seleccion de peliculas
+* Traer pre-seleccion desde API
+* iterar seleccion//fetch a la API
+* rendering pre-seleccion
+* Se crea la colección de peliculas de Marvel
+* Traer seleccion desde API
+* iterar seleccion//fetch a la API
+* Se crea el rendering para marvel
+* Se crea la coleccion de DC Comics
+* Se crea la coleccion de LucasFilm
+* Se crea el rendering de LucasFilm
 
 ---
 
