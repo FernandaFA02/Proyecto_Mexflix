@@ -105,8 +105,10 @@ _El usuario quiere poder buscar para encontrar más películas por título._
 
 ![Producto 2](./assets/Producto2.png)
 
-![Producto 2](./assets/Producto3.png)
+![Producto 3](./assets/Producto3.png)
 
-![Producto 2](./assets/Producto4.png)
+![Producto 4](./assets/Producto4.png)
 
-![Producto 2](./assets/Producto5.png)
+![Producto 5](./assets/Producto5.png)
+
+![Producto 6](./assets/Producto6.png)
