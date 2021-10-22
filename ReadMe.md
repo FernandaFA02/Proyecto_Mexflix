@@ -22,7 +22,7 @@ _Los usuarios quieren leer una selección adecuada de películas de super héroe
 
 _El usuario quiere ver un buen catálogo de películas ya preseleccionadas._
 
-_El usuario quiere poder buscar para encontrar más películas por título, año y actores._
+_El usuario quiere poder buscar para encontrar más películas por título._
 
 ---
 
@@ -37,6 +37,8 @@ _El usuario quiere poder buscar para encontrar más películas por título, año
 ![Planeación4](./assets/4.Planning.png)
 
 ![Planeación5](./assets/5.Planning.png)
+
+![Planeación6](./assets/6.Planning.png)
 
 ---
 
@@ -99,3 +101,12 @@ _El usuario quiere poder buscar para encontrar más películas por título, año
 ## **Producto final**
 
 ---
+![Producto 1](./assets/Producto1.png)
+
+![Producto 2](./assets/Producto2.png)
+
+![Producto 2](./assets/Producto3.png)
+
+![Producto 2](./assets/Producto4.png)
+
+![Producto 2](./assets/Producto5.png)
